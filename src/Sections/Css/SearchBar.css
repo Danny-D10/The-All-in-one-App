@@ -1,0 +1,23 @@
+.bar{
+    background-color: rgb(23, 249, 249);
+    border: 1px solid mediumseagreen;
+    border-radius: 5px;
+    padding: 10px;
+    /* box-shadow: 1px 1px 1px 2px 12; */
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.6);
+    
+
+}
+
+.bar form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.bar input{
+    margin-top: 5px;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.2);
+    background-color: rgb(241, 236, 236);
+}

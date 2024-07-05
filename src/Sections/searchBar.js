@@ -1,3 +1,4 @@
+import './Css/SearchBar.css'
 import {useState} from 'react'
 function SearchBar({onSubmit}){
     const formHundle=(event)=>{
@@ -10,10 +11,10 @@ const [searchTerm,setSearchTerm] = useState('');
     }
 
     return(
-        <div>
+        <div className='bar'>
             <form onSubmit={formHundle}>
                 <label>Enter anything to get an Image</label>
-                <input autoFocus value={searchTerm} onChange={handleValue}/>
+                <input  value={searchTerm} onChange={handleValue}/>
             </form>
         </div>
     )
